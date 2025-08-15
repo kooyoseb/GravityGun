@@ -1,0 +1,20 @@
+name: GravityGun
+main: com.dacom.gravitygun.GravityGun
+version: 1.0.0
+api-version: "1.21"
+author: Dacom
+description: "모든 기능을 단일 Java 파일로 구현한 중력건 플러그인"
+
+commands:
+  gg:
+    description: "중력건 지급/리로드"
+    usage: "/gg give <player> | /gg reload"
+    permission: gravitygun.admin
+
+permissions:
+  gravitygun.use:
+    description: "중력건 사용"
+    default: true
+  gravitygun.admin:
+    description: "관리 명령어"
+    default: op

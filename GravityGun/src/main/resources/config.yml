@@ -1,0 +1,19 @@
+messages:
+  prefix: "&b[GG]&r "
+item:
+  material: BLAZE_ROD
+  name: "&bGravity Gun"
+mechanics:
+  range: 16.0
+  hold_distance: 3.0
+  launch_power: 2.6
+  tick_smooth: true
+limits:
+  allow_grab_players: true
+  blacklist:
+    - ENDER_DRAGON
+    - WITHER
+    - WARDEN
+cooldown:
+  grab_ms: 300
+
